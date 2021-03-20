@@ -1,0 +1,202 @@
+/****************************************************/
+/***************Start Media Query*******************/
+@media screen and (max-width:992px) {
+
+
+    .Icon:first-of-type {
+        display: block;
+    }
+
+    .metting {
+        position: relative;
+    }
+
+    .metting_list {
+        position: absolute;
+        top: 150%;
+        right: -4px;
+        width: 100%;
+        text-align: right;
+        display: none;
+        z-index: 10000;
+        background-color: #fff;
+        border-top: 1px solid #046582;
+        text-align: center;
+    }
+
+    .metting_list li {
+        flex-basis: 100%;
+        padding: 10px 0px;
+        padding-right: 15px;
+    }
+
+    .metting_list li:first-of-type a {
+
+        text-decoration: none;
+    }
+
+    .metting_list li:hover {
+        background-color: #046582;
+    }
+
+    .metting_list li:hover a {
+        color: #fff
+    }
+
+    .home_text h1 {
+        font-size: 1.5555566rem;
+    }
+
+    .home_text p {
+        font-size: .8rem;
+        line-height: 1.4rem;
+    }
+
+    .home_text button {
+        font-size: .6rem;
+        padding: 10px 5px;
+    }
+
+    .feature_list {
+        flex-basis: 100%;
+        text-align: center;
+        list-style-type: none;
+        margin-bottom: 15px;
+    }
+
+    .feature_image {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .metting_logo h1 {
+        font-size: 1.6rem;
+    }
+
+}
+
+@media screen and (max-width:240px) {
+    .metting_logo h1 {
+        font-size: 1.3rem;
+    }
+
+    .Icon:first-of-type,
+    .Icon:nth-of-type(2) {
+        font-size: 1.3rem;
+    }
+
+    .metting_list li {
+        padding: 8px 0px;
+        padding-right: 10px;
+    }
+
+    .metting_list li a {
+        font-size: 1rem;
+    }
+
+    .home_text h1 {
+        font-size: .7rem;
+    }
+    .end{
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .home_text h1 {
+        font-size: 1rem;
+    }
+
+    .home_text p {
+        font-size: .8rem;
+        line-height: 1.5rem;
+    }
+
+    .home_text button {
+        font-size: .4rem;
+        width: 50%;
+
+    }
+}
+
+@media screen and (max-width:350px) {
+    .home_text h1 {
+        font-size: .8rem;
+    }
+
+    .feature_header h1 {
+        font-size: .8rem;
+    }
+
+    .home_text p {
+        font-size: .6rem;
+        line-height: 1.3rem !;
+    }
+
+    .feature_list li {
+        font-size: .7rem !important;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    .services_our li {
+        flex-basis: 45%;
+        margin: 10px 0px 10px 10px;
+        padding: 8px 0px;
+    }
+
+    .feature_list li {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width:692px) {
+    .services_our li {
+        flex-basis: 100%;
+        margin: 10px 0px 10px 10px;
+        padding: 10px 0px;
+    }
+
+    .services_header h1 {
+        font-size: 1rem;
+    }
+
+    .services_header hr {
+        width: 15%;
+    }
+
+    .services_our li h1 {
+        font-size: 1rem
+    }
+
+    .footer_header h1 {
+        font-size: 1rem;
+    }
+
+    .srvices_eour li i {
+        width: 15%;
+    }
+
+    .services_our li p {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .footer_form form {
+        flex-basis: 100%;
+
+    }
+
+    .footer_form form input,
+    .footer_form form textarea {
+        width: 100%;
+    }
+
+    .location {
+        flex-basis: 100%;
+        margin-top: 50px;
+    }
+}
